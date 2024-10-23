@@ -1,7 +1,7 @@
 package user
 
-import "goportfolio/internal/ports"
+import "goportfolio/internal/ports/service"
 
 type Handler struct {
-	PlayerService ports.UserService
+	PlayerService service.UserService
 }
